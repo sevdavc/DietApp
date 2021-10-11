@@ -1,0 +1,18 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Foods" (
+	"name"	INTEGER,
+	"change"	INTEGER,
+	"cho"	INTEGER,
+	"pro"	INTEGER,
+	"fat"	INTEGER,
+	"cal"	INTEGER
+);
+INSERT INTO "Foods" VALUES ('Süt',1,9,6,6,114);
+INSERT INTO "Foods" VALUES ('Et',1,0,6,5,69);
+INSERT INTO "Foods" VALUES ('Tahıl',1,15,2,0,68);
+INSERT INTO "Foods" VALUES ('Kuru Baklagil',1,15,5,0,80);
+INSERT INTO "Foods" VALUES ('Sebze',1,6,1,0,28);
+INSERT INTO "Foods" VALUES ('Meyve',1,15,0,0,60);
+INSERT INTO "Foods" VALUES ('Yağ',1,0,0,5,45);
+INSERT INTO "Foods" VALUES ('Şeker',1,5,0,0,20);
+COMMIT;
