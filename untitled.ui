@@ -20,8 +20,11 @@
       <x>0</x>
       <y>310</y>
       <width>1431</width>
-      <height>391</height>
+      <height>431</height>
      </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
     </property>
     <column>
      <property name="text">
